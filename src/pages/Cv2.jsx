@@ -7,6 +7,7 @@ import { ThemeToggleButton } from "../components/ThemeToggleButton";
 import { AnimateIntro } from "../components/AnimateIntro";
 import { GithubIcon } from "../components/GithubIcon"
 import { Animate } from "../components/Animate";
+import pdfocr from "../../public/RODRIGO_MORENO_DEVELOPER.pdf";
 
 const Cv2 =()=> { 
   const s = useColorModeValue('brand.100', 'black')
@@ -23,7 +24,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
   bgGradient='linear(to-l, whiteAlpha.100, whiteAlpha.200)'
   style={{ textAlign: "left", fontFamily: "Arial" }}
 > <AnimateIntro> <ThemeToggleButton/>
-    <a href="/RODRIGO_MORENO_DEVElOPER.pdf" download>
+    <a href={pdfocr} download="RODRIGO_MORENO_DEVELOPER">
       <Button leftIcon={<DownloadIcon />} css={{
         background : "transparent", color: "crimson", 
         fontWeight: "bold", filter: "blur(0.4px)", 
