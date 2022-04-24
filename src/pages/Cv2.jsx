@@ -93,7 +93,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
           fontSize="md" color={s}
           filter={'contrast(0.8)'}
         > 
-          Solid front-end knowledge of React, ES6+, Javascript, understanding of design principies, UI/UX, advanced CSS (<b>CSS Modules, Scss, Emotion, Chakra-UI, Styled-components</b>), and responsive desing.
+          Solid front-end knowledge of React, ES6+, Javascript, understanding of design principles, UI/UX, advanced CSS (<b>CSS Modules, Scss, Emotion, Chakra-UI, Styled-components</b>), and responsive design.
           Positive attitude, strong work ethic, a drive for results while focusing on high code quality and performance.
         </Text>
       </Text>
@@ -102,11 +102,16 @@ return ( <> <Animate> <Box w='100%' h='100%'
 
       <Heading my={2} fontSize={style.brh2} display='inline'
         color={s} filter={style.filterblur3}
-      > SOLODEVELOPER{' '}
+      > SOLO DEVELOPER{' '}
       </Heading> <em>Independent</em> | 28/09/2021 ~ 2022<br/>
 
       <Text color={g} display='inline'>
-        I have worked on my own projects to strengthen my knowledge of development, frontend and backend, in my portfolio and others. With the aim of having projects to show in job interviews to be able to get my first job as a developer, in which I have touched design and automation, all my learning notes are in my github profile.<br/><br/>
+        I have worked on my own projects to strengthen my knowledge of development, frontend and backend, in my portfolio and others.  With the aim of having projects to show in job interviews to be able to get my first job as developer, i've applied my design and automation knowledge, all my learning notes are in my {' '}
+        <Box display="inline" _hover={{color: 'purple', cursor: 'pointer'}} onClick={()=> 
+          window.open('https://github.com/rroderickk', "_blank", "width=400, height=690")}
+        >
+          <b>GithHub profile.</b>
+        </Box><br/><br/>
       </Text>
 
       <Heading fontSize={style.brh2} display='inline'
@@ -186,7 +191,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
         <Box onClick={()=> 
           window.open('https://github.com/rroderickk', "_blank", "width=400, height=690")}
         >
-          &ensp;<GithubIcon mt={5} css={{ cursor: 'help' }} fill={s}/>
+          &ensp;<GithubIcon mt={5} css={{ cursor: 'help',}} _hover={{ fill: 'purple' }} fill={s}/>
         </Box>
       </Stack>
 
