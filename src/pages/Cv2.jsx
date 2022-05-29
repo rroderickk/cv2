@@ -60,12 +60,12 @@ return ( <> <Animate> <Box w='100%' h='100%'
         fontFamily="Times new roman"
         w='full'
       ><strong>Web Developer</strong> | Colombia | rmresidente@gmail.com |
-        <Text d={'inline'}> Porfolio:{' '}
+        <Text d={'inline'}> Portfolio:{' '}
           <Text display="inline" fontWeight={'bolder'} 
             textDecoration="Highlight"
             _hover={{ color: 'brand.s4vitarRedTeam'}}
-          > <a href="https://rroderickk.github.io/TempCv1"
-              target="_blank"> rroderickk.github.io/TempCv1 
+          > <a href="https://rroderickk.github.io/Deploy_library/"
+              target="_blank"> Deploy library
             </a>
           </Text>
         </Text>
