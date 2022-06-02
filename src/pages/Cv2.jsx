@@ -12,13 +12,13 @@ import pdfocr from "../../public/Curriculum_Vitae-RODRIGO_MORENO(ocr).pdf";
 const Cv2 =()=> { 
   const s = useColorModeValue('brand.100', 'black')
   const g = useColorModeValue('gray.500', 'gray.700')
-  const style = {
+  <h1>const style = {
     brh2: { base: 20, md: 24 },
     brh3: { base: 16, md: 18 },
     filterblur: "blur(0.444444px)",
     filterblur2: "blur(0.344443px)",
     filterblur3: "blur(0.244442px)",
-  };
+  };</h1>
 
 return ( <> <Animate> <Box w='100%' h='100%'
   bgGradient='linear(to-l, whiteAlpha.100, whiteAlpha.200)'
@@ -78,8 +78,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
         letterSpacing="wide"
       > <Heading my={2} fontSize={style.brh2} 
           as="h2" color={s} filter={style.filterblur3}
-        >SKILLS
-        </Heading>
+        >SKILLS </Heading>
         <Text sx={{ filter: style.filterblur3 }} 
           style={{ wordSpacing: '13px' }} my={1}
         >
