@@ -7,7 +7,7 @@ import { ThemeToggleButton } from "../components/ThemeToggleButton";
 import { AnimateIntro } from "../components/AnimateIntro";
 import { GithubIcon } from "../components/GithubIcon"
 import { Animate } from "../components/Animate";
-import pdfocr from "../../public/RODRIGO_MORENO_DEVELOPER.pdf";
+import pdfocr from "../../public/Curriculum_Vitae-RODRIGO_MORENO(ocr).pdf";
 
 const Cv2 =()=> { 
   const s = useColorModeValue('brand.100', 'black')
@@ -116,8 +116,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
 
       <Heading fontSize={style.brh2} display='inline'
         color={s} filter={style.filterblur3}
-      > EDUCATION{' '}
-      </Heading>
+      > EDUCATION{' '} </Heading>
 
       <Text mt={2} color={g} css={{wordSpacing: '2px'}}>
         28/09/2021 ~ At the moment Self-taught with 13+ certificates of completion, Platzi & Others platforms | React.js | Node.js | Python | Typescript | Typescript Advanced | Closures and scope Javascript | CSS3 | SCSS | Javascript | ES6+ | OOP | Node | Nest | Next | Webpack | SPa | Effective time management | Responsive design: mobile first | SOFTWARE ENGINEERING FUNDAMENTALS.
@@ -134,8 +133,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
           <Text display="inline" fontWeight={'bolder'} 
             _hover={{ color: 'brand.800'}}
           > <a href="https://www.linkedin.com/in/rodrigo-moreno-rr"
-              target="_blank"> LinkedIn.
-            </a>
+              target="_blank"> LinkedIn.  </a>
           </Text>
       </Text><br/><br/>
 
