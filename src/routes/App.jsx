@@ -8,7 +8,7 @@ const App =()=> { return (
 	<BrowserRouter basename="/cv2">
 		<Layout>
 			<Routes>
-				<Route exact path="/" element={<Cv2 />} />
+				<Route path="/" element={<Cv2/>}/>
 			</Routes>
 		</Layout>
 	</BrowserRouter>

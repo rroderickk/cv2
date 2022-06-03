@@ -15,15 +15,10 @@ module.exports = {
 		alias: {
 			"@components": path.resolve(__dirname, "src/components/"),
 			"@containers": path.resolve(__dirname, "src/containers/"),
-			"@hooks": path.resolve(__dirname, "src/hooks/"),
 			"@pages": path.resolve(__dirname, "src/pages/"),
 			"@routes": path.resolve(__dirname, "src/routes/"),
-			"@context": path.resolve(__dirname, "src/context/"),
-			"@styles": path.resolve(__dirname, "src/styles/"),
-			"@assets": path.resolve(__dirname, "public/assets/"),
+			"@public": path.resolve(__dirname, "public/"),
 			"@icons": path.resolve(__dirname, "public/assets/icons/"),
-			"@imgs": path.resolve(__dirname, "public/assets/imgs/"),
-			"@logos": path.resolve(__dirname, "public/assets/logos/"),
 		},
 	},
 	module: {

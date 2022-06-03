@@ -2,14 +2,14 @@ import React  from "react";
 import { Button, Box, Link, Heading, Text, 
   Divider, Stack, useColorModeValue,
 } from "@chakra-ui/react";
-import { DownloadIcon,ArrowForwardIcon } from "@chakra-ui/icons";
+import { DownloadIcon, ArrowForwardIcon } from "@chakra-ui/icons";
 import { ThemeToggleButton } from "../components/ThemeToggleButton";
 import { AnimateIntro } from "../components/AnimateIntro";
 import { GithubIcon } from "../components/GithubIcon"
 import { Animate } from "../components/Animate";
-import pdfocr from "../../public/Curriculum_Vitae-RODRIGO_MORENO(ocr).pdf";
+import pdfocr from "@public/Curriculum_Vitae-RODRIGO_MORENO(ocr).pdf";
 
-const Cv2 =()=> { 
+const Cv2 =()=> {
   const s = useColorModeValue('brand.100', 'black')
   const g = useColorModeValue('gray.500', 'gray.700')
   const style = {
@@ -96,7 +96,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
           Positive attitude, strong work ethic, a drive for results while focusing on high code quality and performance.
         </Text>
       </Text>
-      
+
 <Divider my={5} borderColor={s} sx={{ filter: "blur(0.6px)" }}/>
 
       <Heading my={2} fontSize={style.brh2} display='inline'
@@ -144,7 +144,7 @@ return ( <> <Animate> <Box w='100%' h='100%'
       <Text color={g}>
         Supervision of mining equipment, mining operation, dumps and backfill. Pribbenow Mine, in parallel, risk and hazard measurement was carried out on members of the organization.<br/><br/>
       </Text>
-      
+
       <em>Resident engineer </em> | <b>INGENIEROS GF S.A.S</b> | 06/03/17 ~ 05/04/18
       <Text color={g}>
         Resident of road work, supervision of operation, excavation transport and conformation of rocky material.

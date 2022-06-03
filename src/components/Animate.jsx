@@ -15,7 +15,5 @@ const Animate =({children})=> { return (<>
     variants={variants}
     transition={{ duration: 0.4, type: 'easeInOut' }}
     style={{ position: 'relative' }}
->
-   {children}
-</motion.article>
+> {children} </motion.article>
 </> ) }; export {Animate};

@@ -1,8 +1,6 @@
 import React from "react"
 import { AnimatePresence, motion } from 'framer-motion'
-import { IconButton, useColorMode, 
-  useColorModeValue,
-} from '@chakra-ui/react'
+import { IconButton, useColorMode, useColorModeValue, } from '@chakra-ui/react'
 import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 
 const ThemeToggleButton =()=> { 
@@ -10,9 +8,7 @@ const ThemeToggleButton =()=> {
 
   React.useEffect(()=>{
     document.addEventListener('keydown', function(e) {
-      if (e.key === 't') {
-        document.getElementById('clickT').click();
-      }
+      if (e.key === 't') document.getElementById('clickT').click();
     });
     return document.removeEventListener('keydown', this)
   },[])
@@ -40,7 +36,7 @@ return ( <motion.div
         colorScheme={useColorModeValue('purple', 'yellow')}
         icon={
           useColorModeValue( 
-            <MoonIcon bg="transparent" />, 
+            <MoonIcon bg="transparent" />,
             <SunIcon color="gray.500" />
           )
         }
@@ -48,4 +44,4 @@ return ( <motion.div
       />
     </motion.div>
   </AnimatePresence>
-</motion.div> ) }; export { ThemeToggleButton} 
+</motion.div> ) }; export { ThemeToggleButton}

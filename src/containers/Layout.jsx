@@ -1,7 +1,7 @@
 import React from "react";
-import { Box, useColorModeValue } from "@chakra-ui/react"
+import { useColorModeValue } from "@chakra-ui/react";
 
-const Layout =( {children} )=> {
+const Layout =({ children })=> {
 
   const color = useColorModeValue('black', '#ffffff')
 
@@ -14,12 +14,6 @@ const Layout =( {children} )=> {
     maxWidth: "100vw",
   };
 
-  return (
-    <div className="Layout" 
-      style={styleLayout}
-    >
-      {children}
-    </div>
-  ); 
+  return  <div className="Layout" style={styleLayout} > {children} </div>
 
 }; export { Layout };
