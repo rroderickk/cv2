@@ -1,11 +1,14 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,node
 
+
+
 ### Linux ###
 *~
 /ej
 README.md
-
+MEJORAS.md
+.vscode/
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
 

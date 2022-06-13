@@ -1,8 +1,8 @@
+import React from "react";
 import { motion } from 'framer-motion'
 
-import React from "react";
 
-const AnimateIntro =({ children })=> { return (<>
+export const AnimateIntro =({ children })=> <>
 
   <motion.div style={{ display: 'inline-block' }}
     initial={{ y: -30, opacity: 0 }}
@@ -11,4 +11,4 @@ const AnimateIntro =({ children })=> { return (<>
     transition={{ duration: 0.9 }}
   >{children}</motion.div>
 
-</> ) }; export { AnimateIntro };
+</>
