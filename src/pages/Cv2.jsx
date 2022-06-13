@@ -8,7 +8,7 @@ import { AnimateIntro } from '../components/AnimateIntro';
 import { GithubIcon } from '../components/GithubIcon'
 import { Animate } from '../components/Animate';
 import pdfocr from '@public/Curriculum_Vitae-RODRIGO_MORENO(ocr).pdf';
-import { LINKS } from '../components/Molecules/Links';
+// import { LINKS } from '../components/Molecules/Links';
 
 
 const Cv2 =()=> {
